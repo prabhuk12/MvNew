@@ -1,0 +1,16 @@
+Base Properties 
+ENGINE	4a4398f0-2b5e-49b6-869b-ff9a61f20ab4
+ENGINE_ALIAS	MovieDatabase
+OWL	db/@ENGINE@/MovieDatabase_OWL.OWL
+PIXEL_UPDATE	true
+RDBMS_INSIGHTS	db/@ENGINE@/insights_database
+SOLR_RELOAD	false
+HIDDEN_DATABASE	false
+ENGINE_TYPE	prerna.engine.impl.rdbms.RDBMSNativeEngine
+RDBMS_TYPE	H2_DB
+DRIVER	org.h2.Driver
+USERNAME	sa
+PASSWORD	
+CONNECTION_URL	jdbc:h2:nio:@BaseFolder@/db/@ENGINE@/database;query_timeout=180000;early_filter=true;query_cache_size=24;cache_size=32768
+USE_OUTER_JOINS	false
+# USE_CONNECTION_POOLING	true
